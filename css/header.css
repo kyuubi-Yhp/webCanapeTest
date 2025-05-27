@@ -1,3 +1,5 @@
+
+
 .container__header {
   display: flex;
   flex-direction: row;
@@ -5,7 +7,6 @@
 
 .box__wraper {
   position: relative;
-  /* width: 480px; */
 }
 
 .img__header {
@@ -17,13 +18,14 @@
   position: absolute;
   bottom: 48px;
   left: 64px;
-
   color: white;
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
   letter-spacing: 2.56px;
 }
+
+/* ---------------------------- */
 
 @media (max-width: 1440px) {
   .img__header {
@@ -36,22 +38,19 @@
     left: 51px;
     font-size: 24px;
   }
-
 }
 
 @media (max-width: 767px) {
-
   .text__inside-img {
-  left: 48px;
+    left: 48px;
   }
 
-
-.img__header {
-  width: 100%;
-  height: 100%;
-}
+  .img__header {
+    width: 100%;
+    height: 100%;
+  }
 
   .container__header {
-  flex-direction: column;
-}
+    flex-direction: column;
+  }
 }
