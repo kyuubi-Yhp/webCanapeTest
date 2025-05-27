@@ -1,0 +1,14 @@
+{
+  "name": "my-project",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --no-source-maps --dist-dir prod"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "swiper": "^11.2.8"
+  }
+}
