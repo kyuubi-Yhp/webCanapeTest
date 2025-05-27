@@ -1,18 +1,18 @@
-
-
 .container__header {
-  width: 100%;
   display: flex;
   flex-direction: row;
 }
 
 .box__wraper {
+  margin-left: 0.5px;
   position: relative;
 }
 
 .img__header {
-  width: 480px;
-  height: 480px;
+  width: 100%;
+  height: auto;
+  /* width: 480px;
+  height: 480px; */
 }
 
 .text__inside-img {
@@ -29,10 +29,6 @@
 /* ---------------------------- */
 
 @media (max-width: 1440px) {
-  .img__header {
-    width: 360px;
-    height: 360px;
-  }
 
   .text__inside-img {
     bottom: 34px;
@@ -41,14 +37,17 @@
   }
 }
 
+@media (max-width: 1199px) {
+  .text__inside-img {
+    bottom: 14px;
+    left: 31px;
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 767px) {
   .text__inside-img {
     left: 48px;
-  }
-
-  .img__header {
-    width: 100%;
-    height: 100%;
   }
 
   .container__header {
