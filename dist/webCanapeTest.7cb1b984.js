@@ -684,12 +684,26 @@ const swiper = new (0, _swiperDefault.default)('.swiper', {
     speed: 1000,
     grabCursor: true,
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev'
+        nextEl: '.swiper-button-next2',
+        prevEl: '.swiper-button-prev1'
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 16
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 18
+        },
+        1441: {
+            slidesPerView: 3,
+            spaceBetween: 24
+        }
     }
 });
 
-},{"swiper":"84GYc","swiper/modules":"iVQNZ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","swiper/swiper-bundle.css":"aErfw"}],"84GYc":[function(require,module,exports,__globalThis) {
+},{"swiper":"84GYc","swiper/modules":"iVQNZ","swiper/swiper-bundle.css":"aErfw","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"84GYc":[function(require,module,exports,__globalThis) {
 /**
  * Swiper 11.2.8
  * Most modern mobile touch slider and framework with hardware accelerated transitions

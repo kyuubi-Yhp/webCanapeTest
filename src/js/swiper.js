@@ -14,7 +14,21 @@ const swiper = new Swiper('.swiper', {
   speed: 1000,
   grabCursor: true,
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.swiper-button-next2',
+    prevEl: '.swiper-button-prev1',
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 16,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 18,
+    },
+    1441: {
+      slidesPerView: 3,
+      spaceBetween: 24,
+    },
   }
 });
