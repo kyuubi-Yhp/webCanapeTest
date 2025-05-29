@@ -1,0 +1,140 @@
+.questions {
+  position: relative;
+  padding: 200px 0 100px 0;
+  min-height: 798px;
+  background-color: #DEDEDE;
+}
+
+.title__questions {
+  position: absolute;
+  top: 120px;
+  left: 21%;
+  transform: translateX(-18%);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.container__questions {
+  position: relative;
+  max-width: 1320px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.box__questions {
+  transition: height 0.6s linear;
+  border-left: 1px solid #333;
+  border-bottom-right-radius: 10px;
+  height: 84px;
+  position: relative;
+  padding: 27px 60px 27px 37px;
+  margin-bottom: 8px;
+  background-color: #ECEBEB;
+}
+
+.box__questions-active {
+  height: 180px;
+}
+
+.title__inside-questions {
+  transition: margin-bottom 0.6s ease;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.title__inside-questions-active {
+  margin-bottom: 32px;
+}
+
+.text__questions {
+  transition: opacity 0.4s ease;
+  opacity: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 1100px;
+}
+
+.text__questions-active {
+  opacity: 1;
+}
+
+
+.btn__open {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.btn__open::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-image: url(../img/questionsBtn/plusBtn.png);
+}
+
+.btn__open-active::after {
+  background-image: url(../img/questionsBtn/minusBtn.png);
+}
+
+
+/* ------------- */
+
+@media (max-width: 1440px) {
+  .container__questions {
+    padding: 0 40px;
+  }
+
+  .title__questions {
+    top: 60px;
+  }
+
+  .questions {
+    padding: 150px 0 60px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .title__inside-questions {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+  }
+  .title__inside-questions-active {
+  margin-bottom: 20px;
+}
+
+  .text__questions {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+
+  .title__questions {
+    font-size: 24px;
+    top: 30px;
+  }
+
+  .questions {
+    padding: 80px 0 30px 0;
+  }
+
+  .container__questions {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 530px) {
+  .box__questions-active {
+    height: 250px;
+  }
+}
