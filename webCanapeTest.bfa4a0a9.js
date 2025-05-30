@@ -1,0 +1,1 @@
+let ratingItemList=document.querySelectorAll(".rating__item"),ratingItemArray=Array.prototype.slice.call(ratingItemList);ratingItemArray.forEach(t=>{t.addEventListener("click",()=>t.parentNode.dataset.totalValue=t.dataset.itemValue)});
