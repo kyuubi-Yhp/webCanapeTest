@@ -6,6 +6,7 @@
   flex-direction: row-reverse;
 }
 .rating__item {
+  margin-right: 3px;
   color: grey;
   font-size: 18px;
   cursor: pointer;
