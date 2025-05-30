@@ -1,10 +1,15 @@
 @import "../css/header.css";
 @import "../css/reviews.css";
 @import "../css/questions.css";
+@import "../css/stars.css";
 
-/* @font-face {
-  font-family: ;
-  src: url();
-} */
+@font-face {
+  font-family: "Manrope";
+  src: url(../fonts/Manrope.ttf);
+}
+
+body {
+  font-family: "Manrope";
+}
 
 

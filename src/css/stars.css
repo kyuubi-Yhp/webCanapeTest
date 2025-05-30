@@ -1,0 +1,25 @@
+.stars {
+  top: 24px;
+  right: 32px;
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+.rating__item {
+  color: grey;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.rating__item:hover, .rating__item:hover ~ .rating__item {
+  color: #FFBA52;
+}
+
+.stars[data-total-value="1"] .rating__item:nth-child(n + 5), 
+.stars[data-total-value="2"] .rating__item:nth-child(n + 4), 
+.stars[data-total-value="3"] .rating__item:nth-child(n + 3), 
+.stars[data-total-value="4"] .rating__item:nth-child(n + 2), 
+.stars[data-total-value="5"] .rating__item:nth-child(n + 1) {
+  color: #FFBA52;
+}
