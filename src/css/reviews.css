@@ -45,8 +45,6 @@
   line-height: 18px;
 }
 
-.stars {}
-
 .title__reviews-inside {
   margin-bottom: 8px;
   font-weight: 600;
@@ -59,7 +57,6 @@
   font-size: 14px;
   line-height: 24px;
 }
-
 
 /* кнопки ---------------- */
 .swiper-button-prev1 {
@@ -118,8 +115,6 @@
   opacity: 1;
 }
 
-
-
 /* -------------- */
 
 @media (max-width: 2200px) {
@@ -127,7 +122,6 @@
     display: none;
   }
 }
-
 
 @media (max-width: 1440px) {
 
@@ -151,12 +145,9 @@
     padding: 0 16px;
   }
 
-  .swiper-wrapper {}
-
   .swiper-slide {
     display: flex;
     justify-content: center;
-
   }
 
   .contant__box {
@@ -184,7 +175,6 @@
 }
 
 @media (max-width: 450px) {
-
   .swiper {
     height: 390px;
   }
@@ -199,7 +189,6 @@
 
   .swiper-button-prev1 {
     display: none;
-
   }
 
   .swiper-button-next2 {

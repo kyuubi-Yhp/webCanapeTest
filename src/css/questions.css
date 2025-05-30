@@ -63,7 +63,6 @@
   opacity: 80%;
 }
 
-
 .btn__open {
   position: absolute;
   top: 24px;
@@ -85,7 +84,6 @@
 .btn__open-active::after {
   background-image: url(../img/questionsBtn/minusBtn.png);
 }
-
 
 /* ------------- */
 
@@ -109,16 +107,16 @@
     font-size: 16px;
     line-height: 14px;
   }
+
   .title__inside-questions-active {
-  margin-bottom: 20px;
-}
+    margin-bottom: 20px;
+  }
 
   .text__questions {
     font-weight: 300;
     font-size: 16px;
     line-height: 20px;
   }
-
 
   .title__questions {
     font-size: 24px;
